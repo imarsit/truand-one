@@ -16,63 +16,63 @@ module.exports = {
 		{
 			name: '文苑之旅',
 			// 路径
-			path: 'literary',
+			path: '/literary',
 			// 预览图
 			thumbnail: 'literary.png',
 		},
 		{
 			name: '景区概况',
 			// 路径
-			path: 'scenic',
+			path: '/scenic',
 			// 预览图
 			thumbnail: 'scenic.png',
 		},
 		{
 			name: '舒雅住宅',
 			// 路径
-			path: 'residence',
+			path: '/residence',
 			// 预览图
 			thumbnail: 'residence.png',
 		},
 		{
 			name: '新闻动态',
 			// 路径
-			path: 'news',
+			path: '/news',
 			// 预览图
 			thumbnail: 'news.png',
 		},
 		{
 			name: '留言中心',
 			// 路径
-			path: 'feedback',
+			path: '/feedback',
 			// 预览图
 			thumbnail: 'feedback.png',
 		},
 		{
 			name: '联系我们',
 			// 路径
-			path: 'contact',
+			path: '/contact',
 			// 预览图
 			thumbnail: 'contact.png',
 		},
 		{
 			name: '文苑之旅详情页',
 			// 路径
-			path: 'literary_show',
+			path: '/literary_show',
 			// 预览图
 			thumbnail: 'literary_show.png',
 		},
 		{
 			name: '新闻详情页',
 			// 路径
-			path: 'news_show',
+			path: '/news_show',
 			// 预览图
 			thumbnail: 'news_show.png',
 		},
 		{
 			name: '网络地图',
 			// 路径
-			path: 'map',
+			path: '/map',
 			// 预览图
 			thumbnail: 'map.png',
 		}
