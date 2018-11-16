@@ -1,14 +1,14 @@
 extends layout
 
 block vars
-    - let title = '网络地图'
+    - let title = '火星人科技'
 
 block content
     div
         include lib/head
         section.banner_zi
             div
-                img(src='/public/images/banner_contact.png', alt='')
+                img(src='/public/images/banner_contact.png')
 
         .head_bar
             span 位置：
@@ -18,13 +18,13 @@ block content
         .map_con
             .top_tit
                 span.span1
-                    a(href='map') 网站地图
+                    a(href='/map') 网站地图
                 br
             .w1004
                 .map
                     dl
                         dt
-                            a(href='scenic') 景区概况
+                            a(href='/scenic') 景区概况
                     dl
                         dt
                             a(href='newliterary') 文苑之旅
@@ -59,19 +59,19 @@ block content
                                 a(href='newliterary') 花草园艺
                     dl
                         dt
-                            a(href='residence') 舒雅住宅
+                            a(href='/residence') 舒雅住宅
                     dl
                         dt
-                            a(href='news') 新闻动态
+                            a(href='/news') 新闻动态
                         dd
                             div
-                                a(href='news') 公司新闻
-                                a(href='')
-                                a(href='news') 行业新闻
-                                a(href='')
+                                a(href='/news') 公司新闻
+                                a(href='javascript:;')
+                                a(href='/news') 行业新闻
+                                a(href='javascript:;')
                     dl
                         dt
-                            a(href='feedback') 留言中心
+                            a(href='/feedback') 留言中心
                     dl
                         dt
-                            a(href='contact') 联系我们
+                            a(href='/contact') 联系我们

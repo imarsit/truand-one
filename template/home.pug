@@ -1,7 +1,7 @@
 extends layout
 
 block vars
-    - let title = '珍岛集团'
+    - let title = '火星人科技'
 
 block content
     div
@@ -9,13 +9,13 @@ block content
         section.banner
             div
                 a(href='/')
-                    img(src='/public/images/banner1.jpg', alt='')
+                    img(src='/public/images/banner1.jpg')
             div
                 a(href='/')
-                    img(src='/public/images/banner1.jpg', alt='')
+                    img(src='/public/images/banner1.jpg')
             div
                 a(href='/')
-                    img(src='/public/images/banner1.jpg', alt='')
+                    img(src='/public/images/banner1.jpg')
         .jqgk
             .contai
                 .top_tit
@@ -34,47 +34,47 @@ block content
         .wyzl
             .top_tit
                 span.span1
-                    a(href='literary') 文苑之旅
+                    a(href='/literary') 文苑之旅
                 br
                 span.span2 COURT TRAVEL
             ul.clearfix
                 li.wow.bounceIn
-                    a(href='literary')
-                        img.vcenter(src='/public/images/home_1.png', alt='')
+                    a(href='/literary')
+                        img.vcenter(src='/public/images/home_1.png')
                         i
-                    a(href='literary') 万竹林海(一)
+                    a(href='/literary') 万竹林海(一)
                 li.wow.bounceIn
-                    a(href='literary')
-                        img.vcenter(src='/public/images/home_2.png', alt='')
+                    a(href='/literary')
+                        img.vcenter(src='/public/images/home_2.png')
                         i
-                    a(href='literary') 万竹林海(二)
+                    a(href='/literary') 万竹林海(二)
                 li.wow.bounceIn
-                    a(href='literary')
-                        img.vcenter(src='/public/images/home_3.png', alt='')
+                    a(href='/literary')
+                        img.vcenter(src='/public/images/home_3.png')
                         i
-                    a(href='literary') 万竹林海(三)
+                    a(href='/literary') 万竹林海(三)
         .syzz
             .top_tit
                 span.span1
-                    a(href='residence') 舒雅住宅
+                    a(href='/residence') 舒雅住宅
                 br
                 span.span2 COMFORTABLE RESIDENTIAL
             .syzz_con.clearfix
                 .left
                     div
                         a(href='comfortable.html')
-                            img.vcenter(src='/public/images/syzz_1.png', alt='')
+                            img.vcenter(src='/public/images/syzz_1.png')
                             i
                     div
                         a(href='comfortable.html')
-                            img.vcenter(src='/public/images/syzz_1.png', alt='')
+                            img.vcenter(src='/public/images/syzz_1.png')
                             i
                     div
                         a(href='comfortable.html')
-                            img.vcenter(src='/public/images/syzz_1.png', alt='')
+                            img.vcenter(src='/public/images/syzz_1.png')
                             i
                 .right
-                    img(src='/public/images/fang.png', alt='')
+                    img(src='/public/images/fang.png')
                     .fang_t
                         span 客 |
                         span 房 |
@@ -94,13 +94,13 @@ block content
             .news_con
                 .top_tit
                     span.span1
-                        a(href='news') 新闻动态
+                        a(href='/news') 新闻动态
                     br
                     span.span2 NEWS
                 ul
                     li.clearfix.wow.bounceIn
                         .news_left
-                            a(href='news') 暑假去哪玩？桃花苑天地避暑甚好！
+                            a(href='/news') 暑假去哪玩？桃花苑天地避暑甚好！
                             p
                                 | 暑期近在眼前，还在犹豫带孩子去哪儿玩吗？炎热的夏天，一颗躁动的心，背上收拾好的背包，走遍大好河山
                                 | ，感受大千世界，还不如隐居室外桃源桃花苑天地精品。少一些城市的喧嚣，回归大自然的清新脱俗，来一场说走就走的夏日之旅吧。
@@ -109,7 +109,7 @@ block content
                             time 2016
                     li.clearfix.wow.bounceIn
                         .news_left
-                            a(href='news') 花落流水春又去
+                            a(href='/news') 花落流水春又去
                             p
                                 | 春暖花开，桃花苑天地精品大咖云集，活动丰富。不仅有适合小朋友们的春游活动，有适合老年朋友的喝茶加棋牌，
                                 | 还有书法大咖们的加盟，乃至电视真人秀节目的拍摄。这可把桃花宝宝们忙坏了，不过没关系，累并快乐着，桃花宝宝非常欢迎大家的到来……
@@ -118,7 +118,7 @@ block content
                             time 2016
                     li.clearfix
                         .news_left
-                            a(href='news') 蝴蝶摘花来
+                            a(href='/news') 蝴蝶摘花来
                             p
                                 | 清朝末年，先生在宁波开了一家面店，生意不错。一天，一位即将回国的美国华侨
                                 | ，登船前来到卜先生的店里吃面，离店时竟把一只皮箱落下了。
@@ -128,7 +128,7 @@ block content
                             time 2016
                     li.clearfix
                         .news_left
-                            a(href='news') 这是我们想去的地方
+                            a(href='/news') 这是我们想去的地方
                             p
                                 | 春暖花开，桃花苑天地精品大咖云集，活动丰富。不仅
                                 | 有适合小朋友们的春游活动，有适合老年朋友的喝茶加棋牌，
@@ -137,7 +137,7 @@ block content
                         .news_right
                             span 05.25
                             time 2016
-                a.more(href='news') MORE
+                a.more(href='/news') MORE
 block script
     script.
         $(function(){ $('input, textarea').placeholder(); });
