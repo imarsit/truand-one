@@ -1,0 +1,157 @@
+/*舒雅住宅*/
+
+.syzz {
+    max-width: 1240px;
+    width: 98%;
+    margin: auto;
+    .syzz_con {
+        background: #81a849;
+        width: 100%;
+        position: relative;
+        .left {
+            max-width: 930px;
+            width: 75%;
+            float: left;
+            a {
+                display: block;
+                position: relative;
+                i {
+                    padding-bottom: 450/930*100%;
+                    display: block;
+                }
+            }
+        }
+        .right {
+            width: 25%;
+            float: right;
+            height: 0px;
+            padding: 5% 40px;
+            text-align: center;
+            background: #81a849;
+            .fang_t {
+                font-size: 18px;
+                color: #fff;
+                margin: 25px auto;
+            }
+            .fang_c {
+                border-top: 1px solid #c0d4a4;
+                border-bottom: 1px solid #c0d4a4;
+                padding: 20px 18px;
+                line-height: 20px;
+                color: #fff;
+                text-align: left;
+                max-height: 142px;
+                overflow: hidden;
+            }
+            .pr_ne {
+                font-size: 14px;
+                color: #fff;
+                margin-top: 20px;
+                span {
+                    display: block;
+                    cursor: pointer;
+                    width: 60px;
+                    text-align: center;
+                }
+                .pr {
+                    background: url(../images/s_1.png) no-repeat left;
+                    padding-left: 10px;
+                    float: left;
+                }
+                .ne {
+                    padding-right: 10px;
+                    background: url(../images/x_1.png) no-repeat right;
+                    float: right;
+                }
+            }
+        }
+        .slick-prev {
+            left: 104%;
+        }
+        .slick-next {
+            right: -29%;
+        }
+        .slick-prev,
+        .slick-next {
+            border: none;
+            transform: rotate(0deg);
+            width: 60px;
+            height: 50px;
+            top: 78%;
+            @media(max-width: 1200px) {
+                top:87%;
+            }
+        }
+        .slick-dots {
+            display: none !important;
+        }
+        @media(max-width:1200px) {
+            .right {
+                .fang_c {
+                    display: none;
+                }
+                .pr_ne {
+                    margin-top: 95px;
+                }
+            }
+        }
+        @media(max-width:768px) {
+            .right {
+                padding: 5% 10px;
+                .fang_t {
+                    font-size: 14px;
+                }
+                .pr_ne {
+                    margin-top: 50px;
+                }
+            }
+        }
+        @media(max-width:680px) {
+            .right {
+                padding: 5% 10px;
+                .fang_t {
+                    font-size: 14px;
+                }
+                .pr_ne {
+                    margin-top: 2px;
+                }
+            }
+        }
+        @media(max-width:480px) {
+            .left {
+                float: none;
+                width: 100%;
+            }
+            .right {
+                display: none;
+            }
+            .slick-dots {
+                display: block !important;
+                bottom: 5px;
+            }
+        }
+    }
+}
+
+.xia_x {
+    max-width: 1240px;
+    margin: 30px auto;
+    width: 98%;
+    text-align: center;
+    height: 40px;
+    position: relative;
+    .img {
+        background: url(../images/xia.png);
+        width: 19px;
+        height: 24px;
+        position: absolute;
+        top: 0px;
+        display: inline-block;
+        animation-name: myfirst;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-play-state: running;
+    }
+}

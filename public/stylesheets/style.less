@@ -1,0 +1,141 @@
+
+@import "bootstrap.css";
+@import "font-awesome.min.css";
+@import "jquery.mmenu.all.css";
+
+@import "animate.less";
+@import "contact.less";
+@import "error404.less";
+@import "footer.less";
+@import "header.less";
+@import "literary.less";
+@import "feedback.less";
+@import "news.less";
+@import "photo.less";
+@import "residence.less";
+@import "scenic.less";
+@import "slick.less";
+@import "text.less";
+@import "widget.less";
+@title_new_color: #343434;
+@titles_new_color: #333333;
+@con_new_color: #666666;
+@con_new_s_color: #3f3f3f;
+@keyframes myfirst {
+    0% {
+        left: 50%;
+        top: 0%;
+    }
+    25% {
+        left: 50%;
+        top: 10%;
+    }
+    50% {
+        left: 50%;
+        top: 20%;
+    }
+    75% {
+        left: 50%;
+        top: 30%;
+    }
+    100% {
+        left: 50%;
+        top: 40%;
+    }
+}
+
+img {
+    max-width: 100%;
+    outline: none;
+}
+
+.vcenter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.tHide {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    -webkit-appearance: none;
+}
+
+textarea {
+    -webkit-appearance: none;
+}
+
+.blockFull {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.relative {
+    position: relative;
+}
+
+a {
+    &:hover {
+        color: @theme_color;
+        text-decoration: none;
+    }
+}
+
+* {
+    transition: All 0.2s ease-in-out;
+    -webkit-transition: All 0.2s ease-in-out;
+    -moz-transition: All 0.2s ease-in-out;
+    -o-transition: All 0.2s ease-in-out;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix {
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.zy_q {
+    border-bottom: 1px solid #ccc;
+}
+
+.clear {
+    height: 0px;
+    clear: both;
+}
+
+body {
+    font-family: "微软雅黑";
+    min-width: 320px;
+    background: url(../images/bg.png);
+    overflow-x: hidden;
+}
+
+ul {
+    padding: 0px;
+}
+
+ul li {
+    list-style: none;
+}

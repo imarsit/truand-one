@@ -1,0 +1,29 @@
+extends layout
+
+block vars
+    - let title = message
+
+block content
+    .error404
+        .info
+            h1 404
+            h2 抱歉，您访问的页面不存在或已被删除！ (｡•ˇ‸ˇ•｡)
+            p.p1 5秒钟后将带您返回首页
+            // <p>The page you are looking for was moved, removed, renamed or might never existed.</p>
+            .menu
+                a(href='#') 首 页
+                |  
+                a(href='#') 关于我们
+                |  
+                a(href='#') 产品中心
+                |  
+                a(href='#') 工程案例
+                |  
+                a(href='#') 新闻中心
+                |  
+                a(href='#') 联系我们
+            a.btn(href='#') 返回首页
+            a.btn.btn-brown(href='#') 返回上一步
+        .pic
+            img(src='/public/images/404.gif', alt=' ')
+

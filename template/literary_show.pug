@@ -1,0 +1,177 @@
+extends layout
+
+block vars
+    - let title = '文苑之旅详情页'
+
+block content
+    div
+        include lib/head
+        section.banner_zi
+            div
+                img(src='/public/images/banner_yuan.png', alt='')
+
+        .head_bar
+            span 位置：
+            a(href='/') 首页 
+            |  > 
+            span.active 文苑之旅
+        .travel_show
+            .tra_con
+                .top_t 万竹林海(一)
+                .top_2
+                    | 风  
+                    i |
+                    |  景  
+                    i |
+                    |   图   
+                    i |
+                    |  集  
+                    i |
+                    |   阅   
+                    i |
+                    |  览
+                .tu_qie.clearfix
+                    .left
+                        .pic
+                            img.vcenter(src='/public/images/tra_show1.png', alt='')
+                            i
+                    .right
+                        ul
+                            li
+                                .pic_li
+                                    img.vcenter(src='/public/images/tra_show1.png', alt='')
+                                    i
+                            li
+                                .pic_li
+                                    img.vcenter(src='/public/images/tra_x2.png', alt='')
+                                    i
+                            li
+                                .pic_li
+                                    img.vcenter(src='/public/images/tra_x3.png', alt='')
+                                    i
+                            li
+                                .pic_li
+                                    img.vcenter(src='/public/images/tra_x4.png', alt='')
+                                    i
+                p
+                    | 桃花林苑竹海，生态风景区地理区域独特，气候温暖湿润，四季分明，自然生态极其优美。年平均气温18℃，年平均降水量1400毫米，
+                p
+                    | 年均相对湿度为75.75%，四季畅游，十分惬意。沿大溪水系呈树枝状分布，南北长9公里，
+                    | 东西宽1公里，中心区域面积20平方公里。幽篁修竹，小桥流水，山峦叠嶂，飞瀑蒸腾，
+                    | 植被茂密，竹种繁多”。竹海内有翠竹万亩，名竹三百，沿溪沿路，漫山遍野，有风拂过，竹浪如海，因以为名。远者苍翠连绵、
+                    | 近者横笛竖萧，如诗意画卷，美不胜收。圣水湖中，水尤清冽，倒影小桥楼台、山影天色。
+                    | 可数游鱼，如在云中。在此放排划船、亲水嬉水，其乐悠悠。
+            .feedback_con
+                .top_tit
+                    span.span1 在线询价
+                    br
+                ul.liu_ul
+                    li.clearfix
+                        p.p1
+                            span
+                                i *
+                                | 标题
+                            input(type='text')
+                        p
+                            span
+                                i *
+                                | 姓名
+                            input(type='text')
+                    li.clearfix
+                        p.p1
+                            span
+                                i *
+                                | 电话
+                            input(type='text')
+                        p
+                            span
+                                i *
+                                | 邮箱
+                            input(type='text')
+                    li
+                        span.span_nei
+                            i *
+                            | 内容
+                        textarea(name='', rows='7', cols='')
+                    li.clearfix.yan_li
+                        span
+                            i *
+                            | 验证码
+                        input(type='text')
+                        img(src='/public/images/yan.png', alt='')
+                        a.yan_no(href='') 看不清,换一张?
+                    li.btn
+                        a(href='') 提交
+                        a(href='') 重置
+            .news_show
+                .s_x.clearfix
+                    a.s_prev(href='') 上一篇：万竹林海
+                    a.x_next(href='') 下一篇：万竹林海(二)
+            .travel_con
+                .xianguan
+                    | 相关产品
+                .tra_ul
+                    ul.clearfix
+                        li.wow.bounceIn
+                            a(href='literary')
+                                img.vcenter(src='/public/images/home_1.png', alt='')
+                                i
+                            a(href='literary') 万竹林海(一)
+                        li.wow.bounceIn
+                            a(href='literary')
+                                img.vcenter(src='/public/images/home_2.png', alt='')
+                                i
+                            a(href='literary') 万竹林海(二)
+                        li.wow.bounceIn
+                            a(href='literary')
+                                img.vcenter(src='/public/images/home_3.png', alt='')
+                                i
+                            a(href='literary') 万竹林海(三)
+        .home_news
+            .news_con
+                .top_tit
+                    span.span1
+                        a(href='news') 新闻动态
+                    br
+                    span.span2 NEWS
+                ul
+                    li.clearfix
+                        .news_left
+                            a(href='news') 暑假去哪玩？桃花苑天地避暑甚好！
+                            p
+                                | 暑期近在眼前，还在犹豫带孩子去哪儿玩吗？炎热的夏天，一颗躁动的心，背上收拾好的背包，走遍大好河山
+                                | ，感受大千世界，还不如隐居室外桃源桃花苑天地精品。少一些城市的喧嚣，回归大自然的清新脱俗，来一场说走就走的夏日之旅吧。
+                        .news_right
+                            span 07.21
+                            time 2016
+                    li.clearfix
+                        .news_left
+                            a(href='news') 花落流水春又去
+                            p
+                                | 春暖花开，桃花苑天地精品大咖云集，活动丰富。不仅有适合小朋友们的春游活动，有适合老年朋友的喝茶加棋牌，
+                                | 还有书法大咖们的加盟，乃至电视真人秀节目的拍摄。这可把桃花宝宝们忙坏了，不过没关系，累并快乐着，桃花宝宝非常欢迎大家的到来……
+                        .news_right
+                            span 05.25
+                            time 2016
+                    li.clearfix
+                        .news_left
+                            a(href='news') 蝴蝶摘花来
+                            p
+                                | 清朝末年，先生在宁波开了一家面店，生意不错。一天，一位即将回国的美国华侨
+                                | ，登船前来到卜先生的店里吃面，离店时竟把一只皮箱落下了。
+                                | 先生打烊时才发现这只皮箱，但已无法找到失主，只好把皮箱小心收藏，等待着失主前来认领。
+                        .news_right
+                            span 05.25
+                            time 2016
+                    li.clearfix
+                        .news_left
+                            a(href='news') 这是我们想去的地方
+                            p
+                                | 春暖花开，桃花苑天地精品大咖云集，活动丰富。不仅
+                                | 有适合小朋友们的春游活动，有适合老年朋友的喝茶加棋牌，
+                                | 还有书法大咖们的加盟，乃至电视真人秀节目的拍摄。
+                                | 这可把桃花宝宝们忙坏了，不过没关系，累并快乐着，桃花宝宝非常欢迎大家的到来……
+                        .news_right
+                            span 05.25
+                            time 2016
+                a.more(href='news') MORE

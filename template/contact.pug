@@ -1,0 +1,90 @@
+extends layout
+
+block vars
+    - let title = '联系我们'
+
+block content
+    div
+        include lib/head
+        section.banner_zi
+            div
+                img(src='/public/images/banner_contact.png', alt='')
+
+        .head_bar
+            span 位置：
+            a(href='/') 首页 
+            |  > 
+            span.active 联系我们
+        .contact_con
+            .top_tit
+                span.span1
+                    a(href='contact') 联系我们
+                br
+                span.con_span 您好，如您有珍岛的相关问题，可直接联系我们！
+            .nei.clearfix
+                .left
+                    a(href='mailto:Eason.wang@71360.com')
+                        img(src='/public/images/email.png', alt='')
+                        | Eason.wang@71360.com
+                    a(href='tel:021-31265245')
+                        img(src='/public/images/phone.png', alt='')
+                        | 021-31265245
+                    a(href='tel:189 1610 1908')
+                        img(src='/public/images/shouji.png', alt='')
+                        | 189 1610 1908
+                    span
+                        img(src='/public/images/weizhi.png', alt='')
+                        | 上海市虹口区水电路682号 天虹商务大
+                        | 厦6F、7F、11F
+                    a.ditu(href='http://map.baidu.com/?newmap', target='_blank')
+                        i.fa.fa-search
+                        | 查看地图
+                .right
+        .home_news
+            .news_con
+                .top_tit
+                    span.span1
+                        a(href='news') 新闻动态
+                    br
+                    span.span2 NEWS
+                ul
+                    li.clearfix
+                        .news_left
+                            a(href='news') 暑假去哪玩？桃花苑天地避暑甚好！
+                            p
+                                | 暑期近在眼前，还在犹豫带孩子去哪儿玩吗？炎热的夏天，一颗躁动的心，背上收拾好的背包，走遍大好河山
+                                | ，感受大千世界，还不如隐居室外桃源桃花苑天地精品。少一些城市的喧嚣，回归大自然的清新脱俗，来一场说走就走的夏日之旅吧。
+                        .news_right
+                            span 07.21
+                            time 2016
+                    li.clearfix
+                        .news_left
+                            a(href='news') 花落流水春又去
+                            p
+                                | 春暖花开，桃花苑天地精品大咖云集，活动丰富。不仅有适合小朋友们的春游活动，有适合老年朋友的喝茶加棋牌，
+                                | 还有书法大咖们的加盟，乃至电视真人秀节目的拍摄。这可把桃花宝宝们忙坏了，不过没关系，累并快乐着，桃花宝宝非常欢迎大家的到来……
+                        .news_right
+                            span 05.25
+                            time 2016
+                    li.clearfix
+                        .news_left
+                            a(href='news') 蝴蝶摘花来
+                            p
+                                | 清朝末年，先生在宁波开了一家面店，生意不错。一天，一位即将回国的美国华侨
+                                | ，登船前来到卜先生的店里吃面，离店时竟把一只皮箱落下了。
+                                | 先生打烊时才发现这只皮箱，但已无法找到失主，只好把皮箱小心收藏，等待着失主前来认领。
+                        .news_right
+                            span 05.25
+                            time 2016
+                    li.clearfix
+                        .news_left
+                            a(href='news') 这是我们想去的地方
+                            p
+                                | 春暖花开，桃花苑天地精品大咖云集，活动丰富。不仅
+                                | 有适合小朋友们的春游活动，有适合老年朋友的喝茶加棋牌，
+                                | 还有书法大咖们的加盟，乃至电视真人秀节目的拍摄。
+                                | 这可把桃花宝宝们忙坏了，不过没关系，累并快乐着，桃花宝宝非常欢迎大家的到来……
+                        .news_right
+                            span 05.25
+                            time 2016
+                a.more(href='news') MORE

@@ -1,0 +1,68 @@
+/*联系我们*/
+
+.contact_con {
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+    .nei {
+        font-size: 16px;
+        background: url(../images/contact_bg.png) no-repeat right;
+        padding-bottom: 80px;
+        .left {
+            width: 100%;
+            color: #666666;
+            padding-left: 10px;
+            a {
+                display: block;
+                color: #666666;
+                font-family: arial;
+                margin: 30px auto;
+                img {
+                    margin-right: 45px;
+                }
+                &:hover {
+                    color: #81a849;
+                }
+            }
+            span {
+                display: block;
+                margin: 30px auto;
+                img {
+                    margin-right: 45px;
+                }
+            }
+            @media(max-width:480px) {
+                a,
+                span {
+                    font-size: 14px;
+                    margin: 10px auto;
+                    img {
+                        margin-right: 20px;
+                    }
+                }
+            }
+            @media(max-width: 320px) {}
+            .ditu {
+                background: #81a849;
+                color: #fff;
+                display: inline-block;
+                padding: 6px 15px;
+                border-radius: 5px;
+                font-size: 16px;
+                i {
+                    margin-right: 5px;
+                    transition: 0.3s;
+                }
+                &:hover {
+                    color: #fff;
+                    i {
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+        @media(max-width:320px) {
+            padding-bottom: 40px;
+        }
+    }
+}

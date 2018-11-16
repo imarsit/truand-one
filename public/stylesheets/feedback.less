@@ -1,0 +1,165 @@
+/*在线留言*/
+
+.feedback_con {
+    width: 98%;
+    margin: 30px auto auto;
+    max-width: 1240px;
+    .liu_ul {
+        color: #666666;
+        font-size: 15px;
+        li {
+            margin-bottom: 30px;
+            p {
+                float: left;
+                width: 48%;
+                margin: 0px;
+                span {
+                    display: inline-block;
+                    width: 14%;
+                    i {
+                        font-style: normal;
+                        color: red;
+                        margin-right: 3px;
+                    }
+                }
+                input,
+                textarea {
+                    width: 86%;
+                    border: 1px solid #d9d9d9;
+                    background: #fff;
+                    height: 46px;
+                    border-radius: 2px;
+                    padding-left: 5px;
+                    outline-color: #81a849;
+                    -webkit-appearance: none;
+                }
+            }
+            .p1 {
+                margin-right: 4%;
+            }
+            @media(max-width:768px) {
+                p {
+                    width: 100%;
+                }
+                .p1 {
+                    margin-right: 0px;
+                    margin-bottom: 30px;
+                }
+            }
+            @media(max-width:480px) {
+                p {
+                    span {
+                        width: 15%;
+                    }
+                    input {
+                        width: 85%;
+                        height: 30px;
+                    }
+                }
+            }
+            span {
+                display: inline-block;
+                width: 6.5%;
+                i {
+                    font-style: normal;
+                    color: red;
+                    margin-right: 3px;
+                }
+                @media(max-width:768px) {
+                    width: 13.5%;
+                }
+                @media(max-width:480px) {
+                    width: 13.5%;
+                }
+            }
+            .span_nei {
+                position: relative;
+                top: -64px;
+            }
+            textarea {
+                width: 93%;
+                border: 1px solid #d9d9d9;
+                background: #fff;
+                border-radius: 2px;
+                padding-left: 5px;
+                outline-color: #81a849;
+                -webkit-appearance: none;
+                @media(max-width: 768px) {
+                    width: 85%;
+                }
+                @media(max-width:480px) {
+                    width: 83%;
+                }
+            }
+            input {
+                width: 42%;
+                border: 1px solid #d9d9d9;
+                background: #fff;
+                border-radius: 2px;
+                padding-left: 5px;
+                height: 46px;
+                outline-color: #81a849;
+                -webkit-appearance: none;
+                @media(max-width: 480px) {
+                    width: 30%;
+                    height: 30px;
+                }
+            }
+            img {
+                margin: auto 2%;
+                @media(max-width: 480px) {
+                    width: 15%;
+                }
+            }
+            .yan_no {
+                color: #666666;
+                text-decoration: underline;
+                &:hover {
+                    color: #81a849;
+                }
+            }
+        }
+        @media(max-width:480px) {
+            .yan_li {
+                span {
+                    width: 20%;
+                }
+                input {
+                    width: 25%;
+                }
+                img {
+                    width: 23%;
+                    margin: auto 1%;
+                }
+                a {
+                    font-size: 12px;
+                }
+            }
+        }
+        .btn {
+            padding-left: 6.5%;
+            a {
+                display: inline-block;
+                padding: 14px 90px;
+                background: #e4e4e4;
+                font-size: 15px;
+                color: #666666;
+                border-radius: 5px;
+                margin-right: 5%;
+                font-weight: bold;
+                &:hover {
+                    background: #81a849;
+                    color: #fff;
+                }
+            }
+            @media(max-width:480px) {
+                padding-left: 0px;
+                width: 100%;
+                a {
+                    padding: 8px 50px;
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}

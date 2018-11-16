@@ -1,0 +1,77 @@
+extends layout
+
+block vars
+    - let title = '网络地图'
+
+block content
+    div
+        include lib/head
+        section.banner_zi
+            div
+                img(src='/public/images/banner_contact.png', alt='')
+
+        .head_bar
+            span 位置：
+            a(href='/') 首页 
+            |  > 
+            span.active 网站地图
+        .map_con
+            .top_tit
+                span.span1
+                    a(href='map') 网站地图
+                br
+            .w1004
+                .map
+                    dl
+                        dt
+                            a(href='scenic') 景区概况
+                    dl
+                        dt
+                            a(href='newliterary') 文苑之旅
+                        dd
+                            p.p2
+                                a(href='newliterary') 茶艺中心
+                            div
+                                a(href='newliterary') 茶艺中心
+                                a(href='newliterary') 万竹林海
+                                a(href='newliterary') 创意中心
+                                a(href='newliterary') 花草园艺
+                            p.p2
+                                a(href='newliterary') 万竹林海
+                            div
+                                a(href='newliterary') 茶艺中心
+                                a(href='newliterary') 万竹林海
+                                a(href='newliterary') 创意中心
+                                a(href='newliterary') 花草园艺
+                            p.p2
+                                a(href='newliterary') 创意中心
+                            div
+                                a(href='newliterary') 茶艺中心
+                                a(href='newliterary') 万竹林海
+                                a(href='newliterary') 创意中心
+                                a(href='newliterary') 花草园艺
+                            p.p2
+                                a(href='newliterary') 花草园艺
+                            div
+                                a(href='newliterary') 茶艺中心
+                                a(href='newliterary') 万竹林海
+                                a(href='newliterary') 创意中心
+                                a(href='newliterary') 花草园艺
+                    dl
+                        dt
+                            a(href='residence') 舒雅住宅
+                    dl
+                        dt
+                            a(href='news') 新闻动态
+                        dd
+                            div
+                                a(href='news') 公司新闻
+                                a(href='')
+                                a(href='news') 行业新闻
+                                a(href='')
+                    dl
+                        dt
+                            a(href='feedback') 留言中心
+                    dl
+                        dt
+                            a(href='contact') 联系我们

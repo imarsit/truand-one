@@ -1,0 +1,299 @@
+/*index 景区概括*/
+
+.jqgk {
+    width: 100%;
+    background: url(../images/top_bg.png) no-repeat;
+    overflow: hidden;
+    .contai {
+        max-width: 1240px;
+        width: 98%;
+        margin: auto;
+        text-align: center;
+        color: #666666;
+        font-size: 14px;
+        line-height: 24px;
+        background: url(../images/xie_xian.png) repeat-x bottom;
+        padding-bottom: 10px;
+        p {
+            margin: 40px auto;
+        }
+    }
+    @media(max-width:480px) {
+        background: none;
+    }
+}
+
+.top_tit {
+    text-align: center;
+    margin: 60px auto 40px;
+    span {
+        display: inline-block;
+    }
+    .span1 {
+        font-size: 30px;
+        font-family: fixedsys;
+        color: #81a849;
+        font-weight: bold;
+        a {
+            color: #81a849;
+            background: url(../images/quan.png) no-repeat left 3px;
+            padding: 0px 10px;
+        }
+        img {
+            margin-top: -26px;
+            margin-right: 6px;
+        }
+    }
+    .span2 {
+        font-family: arial;
+        color: #b2b2b2;
+        font-size: 12px;
+    }
+    @media(max-width:480px) {
+        margin: 30px auto;
+    }
+    .con_span {
+        color: #666;
+        font-size: 14px;
+        display: block;
+        margin: 40px auto;
+        @media(max-width: 320px) {
+            margin: 20px auto;
+        }
+    }
+}
+
+/*景区概况 子页面*/
+
+.jing_zi_ul {
+    width: 100%;
+    margin: auto;
+    li {
+        float: left;
+        margin-right: 1%;
+        width: 32.333%;
+        position: relative;
+        overflow: hidden;
+        img {
+            transition: 0.3s;
+        }
+        i {
+            padding-bottom: 160/410*100%;
+            display: block;
+        }
+        &:last-child {
+            margin-right: 0px;
+        }
+        &:hover {
+            img {
+                transform: scale(1.2);
+            }
+        }
+        @media(max-width:480px) {
+            width: 100%;
+            float: none;
+            margin-right: 0px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.hzhb {
+    max-width: 1240px;
+    width: 98%;
+    margin: auto;
+    .hzhb_ul {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        li {
+            float: left;
+            width: 25%;
+            border-right: 1px solid #e6e6e6;
+            min-height: 93px;
+            position: relative;
+            margin: 20px auto;
+            overflow: hidden;
+            i {
+                padding-bottom: 93/310*100%;
+                display: block;
+            }
+            img {
+                transition: 0.3s;
+            }
+            &:hover {
+                img {
+                    transform: scale(0.8);
+                }
+            }
+            &:nth-child(4n) {
+                border-right: none;
+            }
+        }
+        &:after {
+            content: "";
+            width: 100%;
+            border-bottom: 1px solid #e6e6e6;
+            position: absolute;
+            top: 50%;
+        }
+        @media(max-width:480px) {
+            li {
+                width: 50%;
+                &:nth-child(2n) {
+                    border-right: none;
+                }
+            }
+        }
+    }
+}
+
+.comfor_con {
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+    .com_shi {
+        width: 100%;
+        border-top: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        ul {
+            width: 100%;
+            text-align: center;
+            margin: 30px auto;
+            color: #666666;
+            font-size: 14px;
+            line-height: 26px;
+            .span1 {
+                font-size: 18px;
+            }
+            .span2 {
+                margin-bottom: 30px;
+                display: inline-block;
+            }
+            @media(max-width:480px) {
+                font-size: 12px;
+                .span2 {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    .zx_fang {
+        .zx_span {
+            font-size: 24px;
+            color: #666;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .f_da {
+            width: 100%;
+            div {
+                position: relative;
+                img {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    max-width: 100%;
+                    max-height: 100%;
+                    display: block;
+                    vertical-align: middle;
+                    margin: auto;
+                }
+                i {
+                    display: block;
+                    padding-bottom: 600/1240*100%;
+                }
+            }
+        }
+        .f_xiao {
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 80px;
+            div {
+                position: relative;
+                img {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    max-width: 100%;
+                    max-height: 100%;
+                    display: block;
+                    vertical-align: middle;
+                    margin: auto;
+                }
+                i {
+                    display: block;
+                    padding-bottom: 145/300*100%;
+                }
+                a {
+                    display: block;
+                    width: 100%;
+                    border-bottom: 1px solid #d9d9d9;
+                    color: #666666;
+                    line-height: 40px;
+                    font-size: 16px;
+                    padding-left: 20px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    &:hover {
+                        color: #81a849;
+                    }
+                }
+            }
+            .slick-list {
+                max-width: 950px;
+                margin: auto;
+                width: 76.6%;
+                .slick-slide {
+                    margin: auto 10px;
+                }
+            }
+            .slick-prev,
+            .slick-next {
+                height: 33px;
+                width: 102px;
+                transform: rotate(0deg);
+                border: none;
+            }
+            .slick-prev {
+                left: 0px;
+                background: url(../images/pr1_com.png) no-repeat;
+                &:hover {
+                    background: url(../images/pr2_com.png);
+                }
+            }
+            .slick-next {
+                right: 0px;
+                background: url(../images/ne1_com.png) no-repeat;
+                &:hover {
+                    background: url(../images/ne2_com.png) no-repeat;
+                }
+            }
+            @media(max-width:768px) {
+                .slick-list {
+                    width: 100%;
+                }
+                .slick-prev,
+                .slick-next {
+                    display: none !important;
+                }
+            }
+            @media(max-width:480px) {
+                div {
+                    a {
+                        font-size: 12px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+            @media(max-width:480px) {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}

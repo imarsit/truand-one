@@ -1,0 +1,136 @@
+extends layout
+
+block vars
+    - let title = '文苑之旅'
+
+block content
+    div
+        include lib/head
+        section.banner_zi
+            div
+                img(src='/public/images/banner_yuan.png', alt='')
+        .head_bar
+            span 位置：
+            a(href='/') 首页 
+            |  > 
+            span.active 文苑之旅
+        .travel_con
+            .top_qie
+                a(href='') 茶艺中心
+                a.active(href='') 万竹林海
+                a(href='') 创意中心
+                a(href='') 花草园艺
+            .tra_ul
+                .top_a
+                    a.active(href='') 产品分类一
+                    a(href='') 产品分类二
+                    a(href='') 产品分类三
+                    a(href='') 产品分类四
+                    a(href='') 产品分类五
+                ul.clearfix
+                    li.wow.bounceIn
+                        a(href='literary_show')
+                            img.vcenter(src='/public/images/home_1.png', alt='')
+                            i
+                        a(href='literary_show') 万竹林海(一)
+                    li.wow.bounceIn
+                        a(href='literary_show')
+                            img.vcenter(src='/public/images/home_2.png', alt='')
+                            i
+                        a(href='literary_show') 万竹林海(二)
+                    li.wow.bounceIn
+                        a(href='literary_show')
+                            img.vcenter(src='/public/images/home_3.png', alt='')
+                            i
+                        a(href='literary_show') 万竹林海(三)
+                    li.wow.bounceIn
+                        a(href='literary_show')
+                            img.vcenter(src='/public/images/home_4.png', alt='')
+                            i
+                        a(href='literary_show') 万竹林海(四)
+                    li.wow.bounceIn
+                        a(href='literary_show')
+                            img.vcenter(src='/public/images/home_5.png', alt='')
+                            i
+                        a(href='literary_show') 万竹林海(五)
+                    li.wow.bounceIn
+                        a(href='literary_show')
+                            img.vcenter(src='/public/images/home_6.png', alt='')
+                            i
+                        a(href='literary_show') 万竹林海(六)
+                    li.wow.bounceIn
+                        a(href='literary_show')
+                            img.vcenter(src='/public/images/home_7.png', alt='')
+                            i
+                        a(href='literary_show') 万竹林海(七)
+                    li.wow.bounceIn
+                        a(href='literary_show')
+                            img.vcenter(src='/public/images/home_8.png', alt='')
+                            i
+                        a(href='literary_show') 万竹林海(八)
+                    li.wow.bounceIn
+                        a(href='literary_show')
+                            img.vcenter(src='/public/images/home_9.png', alt='')
+                            i
+                        a(href='literary_show') 万竹林海(九)
+                .page
+                    a(href='')
+                        i.ye.fa.fa-backward
+                    a(href='')
+                        i.ye.fa.fa-caret-left
+                    a.active(href='') 1
+                    a(href='') 2
+                    a(href='') 3
+                    span(href='') …
+                    a(href='')
+                        i.ye.fa.fa-caret-right
+                    a(href='')
+                        i.ye.fa.fa-forward
+        .home_news
+            .news_con
+                .top_tit
+                    span.span1
+                        a(href='news') 新闻动态
+                    br
+                    span.span2 NEWS
+                ul
+                    li.clearfix
+                        .news_left
+                            a(href='news') 暑假去哪玩？桃花苑天地避暑甚好！
+                            p
+                                | 暑期近在眼前，还在犹豫带孩子去哪儿玩吗？炎热的夏天，一颗躁动的心，背上收拾好的背包，走遍大好河山
+                                | ，感受大千世界，还不如隐居室外桃源桃花苑天地精品。少一些城市的喧嚣，回归大自然的清新脱俗，来一场说走就走的夏日之旅吧。
+                        .news_right
+                            span 07.21
+                            time 2016
+                    li.clearfix
+                        .news_left
+                            a(href='news') 花落流水春又去
+                            p
+                                | 春暖花开，桃花苑天地精品大咖云集，活动丰富。不仅有适合小朋友们的春游活动，有适合老年朋友的喝茶加棋牌，
+                                | 还有书法大咖们的加盟，乃至电视真人秀节目的拍摄。这可把桃花宝宝们忙坏了，不过没关系，累并快乐着，桃花宝宝非常欢迎大家的到来……
+                        .news_right
+                            span 05.25
+                            time 2016
+                    li.clearfix
+                        .news_left
+                            a(href='news') 蝴蝶摘花来
+                            p
+                                | 清朝末年，先生在宁波开了一家面店，生意不错。一天，一位即将回国的美国华侨
+                                | ，登船前来到卜先生的店里吃面，离店时竟把一只皮箱落下了。
+                                | 先生打烊时才发现这只皮箱，但已无法找到失主，只好把皮箱小心收藏，等待着失主前来认领。
+                        .news_right
+                            span 05.25
+                            time 2016
+                    li.clearfix
+                        .news_left
+                            a(href='news') 这是我们想去的地方
+                            p
+                                | 春暖花开，桃花苑天地精品大咖云集，活动丰富。不仅
+                                | 有适合小朋友们的春游活动，有适合老年朋友的喝茶加棋牌，
+                                | 还有书法大咖们的加盟，乃至电视真人秀节目的拍摄。
+                                | 这可把桃花宝宝们忙坏了，不过没关系，累并快乐着，桃花宝宝非常欢迎大家的到来……
+                        .news_right
+                            span 05.25
+                            time 2016
+                a.more(href='news') MORE
